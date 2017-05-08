@@ -43,6 +43,9 @@ as a dependency of your configuration.
 
   ;; No cursor blinking, it's distracting
   (blink-cursor-mode 0)
+
+  ;; yes or no as y or n
+  (defalias 'yes-or-no-p 'y-or-n-p)
 #+END_SRC
 
 ** Theme and font
