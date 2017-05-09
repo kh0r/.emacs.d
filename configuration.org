@@ -51,8 +51,7 @@ as a dependency of your configuration.
 ** Theme and font
 
 #+BEGIN_SRC emacs-lisp
-  (load-theme 'railscasts t nil)
-  ;;(set-frame-font "Meslo LG M for Powerline RegularForPowerline")
+  (load-theme 'leuven t)
 #+END_SRC
 
 * Module Config

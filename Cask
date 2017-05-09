@@ -26,6 +26,7 @@
 (depends-on "htmlize")
 (depends-on "idle-highlight-mode")
 (depends-on "ivy")
+(depends-on "leuven-theme")
 (depends-on "magit")
 (depends-on "multiple-cursors")
 (depends-on "nyan-mode")
