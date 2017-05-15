@@ -54,6 +54,22 @@ as a dependency of your configuration.
   (load-theme 'leuven t)
 #+END_SRC
 
+* Auto Save & Backup
+
+https://www.emacswiki.org/emacs/AutoSave
+#+BEGIN_SRC emacs-lisp
+  ;; Save all tempfiles in $TMPDIR/emacs$UID/                                                        
+  (defconst emacs-tmp-dir (expand-file-name (format "emacs%d" (user-uid)) temporary-file-directory))
+  (setq backup-directory-alist
+    `((".*" . ,emacs-tmp-dir)))
+  (setq auto-save-file-name-transforms
+    `((".*" ,emacs-tmp-dir t)))
+  (setq auto-save-list-file-prefix
+    emacs-tmp-dir)
+
+#+END_SRC
+
+
 * Module Config
 
 ** Guide Key
@@ -159,5 +175,6 @@ Automatic indentation
 Enable global mode for projectile
 #+BEGIN_SRC emacs-lisp
   (projectile-global-mode)
+
 #+END_SRC
 
