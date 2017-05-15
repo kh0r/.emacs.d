@@ -4,6 +4,7 @@
 (source melpa)
 
 (depends-on "aggressive-indent")
+(depends-on "alchemist")
 (depends-on "bind-key")
 (depends-on "cask")
 (depends-on "cider")
@@ -21,6 +22,7 @@
 (depends-on "flycheck")
 (depends-on "flycheck-cask")
 (depends-on "guide-key")
+(depends-on "haml-mode")
 (depends-on "helm")
 (depends-on "highlight-parentheses")
 (depends-on "htmlize")

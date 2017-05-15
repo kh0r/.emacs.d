@@ -15,7 +15,7 @@
  '(initial-buffer-choice (quote projectile-switch-project))
  '(package-selected-packages
    (quote
-    (leuven-theme coffee-mode yaml-mode dockerfile-mode counsel ivy guide-key highlight-parentheses web-mode use-package smex smartparens rainbow-delimiters railscasts-theme projectile prodigy popwin pallet nyan-mode magit idle-highlight-mode htmlize helm flycheck-cask expand-region exec-path-from-shell drag-stuff company clj-refactor aggressive-indent))))
+    (alchemist haml-mode leuven-theme coffee-mode yaml-mode dockerfile-mode counsel ivy guide-key highlight-parentheses web-mode use-package smex smartparens rainbow-delimiters railscasts-theme projectile prodigy popwin pallet nyan-mode magit idle-highlight-mode htmlize helm flycheck-cask expand-region exec-path-from-shell drag-stuff company clj-refactor aggressive-indent))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
